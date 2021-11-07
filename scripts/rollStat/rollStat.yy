@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Chargen Scripts",
+    "path": "folders/Scripts/Chargen Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "rollStat",
