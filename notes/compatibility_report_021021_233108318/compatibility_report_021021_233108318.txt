@@ -1,0 +1,58 @@
+Converting GML script: ${project_dir}/scripts/pb_state_stand/pb_state_stand.gml
+Converted description /// @description pb_state_stand()
+
+Converting GML script: ${project_dir}/scripts/pb_state_walk/pb_state_walk.gml
+Converted description /// @description pb_state_stand()
+
+Converting GML script: ${project_dir}/scripts/pb_state_air/pb_state_air.gml
+Converted description /// @description pb_state_air()
+
+Converting GML script: ${project_dir}/scripts/place_meeting_rounded/place_meeting_rounded.gml
+Converted description /// @description place_meeting_rounded(x,y,object)/// @param x
+/// @param y
+/// @param object
+
+Converting GML script: ${project_dir}/scripts/position_meeting_rounded/position_meeting_rounded.gml
+Converted description /// @description position_meeting_rounded(x,y,obj)/// @param x
+/// @param y
+/// @param obj
+
+Converting GML script: ${project_dir}/scripts/approach/approach.gml
+Converted description /// @description approach(start, end, shift);/// @param start
+/// @param  end
+/// @param  shift
+
+Converting GML script: ${project_dir}/scripts/draw_set_text_alignment/draw_set_text_alignment.gml
+Converted description /// @description draw_set_text_alignment(alignment<1-9>,color<optional>)/// @param alignment<1-9>
+/// @param color<optional>
+
+Converting GML script: ${project_dir}/scripts/state_machine_init/state_machine_init.gml
+Converted description /// @description state_machine_init();
+
+Converting GML script: ${project_dir}/scripts/state_create/state_create.gml
+Converted description /// @description state_create(Name <string>,Script)/// @param Name <string>
+/// @param Script
+
+Converting GML script: ${project_dir}/scripts/state_cleanup/state_cleanup.gml
+Converted description /// @description state_cleanup()
+
+Converting GML script: ${project_dir}/scripts/state_init/state_init.gml
+Converted description /// @description state_init(state);/// @param state
+
+Converting GML script: ${project_dir}/scripts/state_switch/state_switch.gml
+Converted description /// @description state_switch(state <script or name>,<push to stack?>)/// @param state <script or name>
+/// @param <push to stack?>
+
+Converting GML script: ${project_dir}/scripts/state_switch_previous/state_switch_previous.gml
+Converted description /// @description state_switch_previous()
+
+Converting GML script: ${project_dir}/objects/obj_platform_boy/Create_0.gml
+Converted description /// @description Properties
+
+Converting GML script: ${project_dir}/objects/obj_platform_boy/Step_2.gml
+Converted description /// @description Update State
+
+Converting GML script: ${project_dir}/objects/obj_platform_boy/Step_0.gml
+Converted description /// @description Read Controls
+
+Game speed set to 60
