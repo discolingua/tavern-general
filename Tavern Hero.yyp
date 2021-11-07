@@ -28,6 +28,7 @@
     {"id":{"name":"rollStat","path":"scripts/rollStat/rollStat.yy",},"order":0,},
     {"id":{"name":"state_switch_previous","path":"scripts/state_switch_previous/state_switch_previous.yy",},"order":13,},
     {"id":{"name":"state_update","path":"scripts/state_update/state_update.yy",},"order":15,},
+    {"id":{"name":"nameGen","path":"scripts/nameGen/nameGen.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":6,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":31,},
     {"id":{"name":"fighter_state_stand","path":"scripts/fighter_state_stand/fighter_state_stand.yy",},"order":0,},

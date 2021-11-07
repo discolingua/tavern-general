@@ -12,4 +12,6 @@ statHP = floor(random(8)) + 1 + statBonus(statCon);
 // everybody gets at least 1HP
 if (statHP < 1) { statHP = 1; }
 
+charName = nameGen();
+
 mouseOver = false;
