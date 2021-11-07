@@ -23,6 +23,7 @@
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},"order":2,},
     {"id":{"name":"state_init","path":"scripts/state_init/state_init.yy",},"order":9,},
     {"id":{"name":"state_switch","path":"scripts/state_switch/state_switch.yy",},"order":11,},
+    {"id":{"name":"fighter_state_attack","path":"scripts/fighter_state_attack/fighter_state_attack.yy",},"order":1,},
     {"id":{"name":"sprWizard","path":"sprites/sprWizard/sprWizard.yy",},"order":3,},
     {"id":{"name":"rollStat","path":"scripts/rollStat/rollStat.yy",},"order":0,},
     {"id":{"name":"state_switch_previous","path":"scripts/state_switch_previous/state_switch_previous.yy",},"order":13,},
