@@ -13,7 +13,8 @@ statHP = floor(random(8)) + 1 + statBonus(statCon);
 if (statHP < 1) { statHP = 1; }
 
 // get initiative order with DEX bonus
-initiativeOrder = random(20) + 1 + statBonus(statDex);
+initiativeOrder = (random(20) + 1 + statBonus(statDex));
+if (initiativeOrder < 1) { initiativeOrder = 1; }
 
 charName = nameGen();
 
@@ -24,9 +25,10 @@ mouseOver = false;
 state_machine_init();
 
 //Define States
-state_create("Stand",fighter_state_stand());
-state_create("Attack",fighter_state_attack());
+state_create("Waiting",fighter_state_waiting);
+state_create("Attack",fighter_state_attack);
+state_create("Attacked",fighter_state_attacked);
 //Set the default state
-state_init("Stand");
+state_init("Waiting");
 
 

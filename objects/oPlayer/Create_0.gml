@@ -1,5 +1,3 @@
-/// @description Properties
-
 
 slide_factor=2;
 

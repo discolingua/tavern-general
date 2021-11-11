@@ -1,4 +1,4 @@
-/// @description Read Controls
+
 //Directions
 up_held=keyboard_check(vk_up);
 down_held=keyboard_check(vk_down);

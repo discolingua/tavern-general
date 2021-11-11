@@ -1,4 +1,4 @@
-/// @description Update State
+
 state_update();
 
 // find exit trigger
