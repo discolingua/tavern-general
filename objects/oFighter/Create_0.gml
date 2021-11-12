@@ -14,7 +14,11 @@ if (statHP < 1) { statHP = 1; }
 
 // get initiative order with DEX bonus
 initiativeOrder = (random(20) + 1 + statBonus(statDex));
-if (initiativeOrder < 1) { initiativeOrder = 1; }
+if (initiativeOrder < 1) { 
+	initiativeOrder = random(1); 
+} else {
+	initiativeOrder *= 10;
+}
 
 charName = nameGen();
 
