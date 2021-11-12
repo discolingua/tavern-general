@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"pb_state_stand","path":"scripts/pb_state_stand/pb_state_stand.yy",},"order":1,},
+    {"id":{"name":"oSwordHit","path":"objects/oSwordHit/oSwordHit.yy",},"order":21,},
     {"id":{"name":"pb_state_walk","path":"scripts/pb_state_walk/pb_state_walk.yy",},"order":3,},
     {"id":{"name":"place_meeting_rounded","path":"scripts/place_meeting_rounded/place_meeting_rounded.yy",},"order":1,},
     {"id":{"name":"oFighter","path":"objects/oFighter/oFighter.yy",},"order":20,},
@@ -31,6 +32,7 @@
     {"id":{"name":"state_update","path":"scripts/state_update/state_update.yy",},"order":15,},
     {"id":{"name":"nameGen","path":"scripts/nameGen/nameGen.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":6,},
+    {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},"order":1,},
     {"id":{"name":"fighter_state_waiting","path":"scripts/fighter_state_waiting/fighter_state_waiting.yy",},"order":0,},
     {"id":{"name":"oExit","path":"objects/oExit/oExit.yy",},"order":8,},
     {"id":{"name":"particleDestroy","path":"scripts/particleDestroy/particleDestroy.yy",},"order":5,},
@@ -38,6 +40,7 @@
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
     {"id":{"name":"sndBell","path":"sounds/sndBell/sndBell.yy",},"order":0,},
     {"id":{"name":"oRoomManagerMain","path":"objects/oRoomManagerMain/oRoomManagerMain.yy",},"order":12,},
+    {"id":{"name":"sprSwordHit","path":"sprites/sprSwordHit/sprSwordHit.yy",},"order":6,},
     {"id":{"name":"compatibility_report_021021_233108318","path":"notes/compatibility_report_021021_233108318/compatibility_report_021021_233108318.yy",},"order":3,},
   ],
   "Options": [
