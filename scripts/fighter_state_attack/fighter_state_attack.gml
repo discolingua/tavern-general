@@ -1,5 +1,8 @@
 function fighter_state_attack(){
-	image_angle = random(360);
-	show_debug_message("!!");
+	with (oChest) {
+		if (distance_to_object(other) <= other.attackRange) {
+			show_debug_message("Attack range");
+		}
+	}
 	state_switch("Attacked");
 }

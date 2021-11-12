@@ -20,6 +20,9 @@ if (initiativeOrder < 1) {
 	initiativeOrder *= 10;
 }
 
+attackRange = 100;
+attackStrength = 6;
+
 charName = nameGen();
 
 mouseOver = false;
@@ -32,6 +35,7 @@ state_machine_init();
 state_create("Waiting",fighter_state_waiting);
 state_create("Attack",fighter_state_attack);
 state_create("Attacked",fighter_state_attacked);
+
 //Set the default state
 state_init("Waiting");
 

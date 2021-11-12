@@ -1,10 +1,4 @@
 if (timerLength > 0) {
-	with(oFighter) {
-		if (initiativeOrder > other.timerLength) {
-			// state_switch("Attack");
-			show_debug_message(string(initiativeOrder));
-		}
-	}
 	timerLength--; 
 } else {
 	with(oFighter) {
