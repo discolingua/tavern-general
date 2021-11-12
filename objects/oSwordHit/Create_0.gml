@@ -1,2 +1,1 @@
-//direction = point_direction(x, y, 500, 200);
-//speed = 10;
+audio_play_sound_at(sndSwordSwing, x, y, 0, 100, 300, 1, false, 1);

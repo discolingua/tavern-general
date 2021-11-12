@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Sound2.wav",
-  "duration": 0.127755,
+  "soundFile": "sndThunk.wav",
+  "duration": 0.086304,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sound2",
+  "name": "sndThunk",
   "tags": [],
   "resourceType": "GMSound",
 }
