@@ -18,6 +18,8 @@ function fighter_state_attack(){
 		
 		// move towards nearest target if nothing in range
 		
+	
+		
 		speed = moveSpeed;
 	}
 	state_switch("Attacked");
