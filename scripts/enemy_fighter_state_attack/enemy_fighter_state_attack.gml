@@ -1,8 +1,8 @@
-function fighter_state_attack(){
+function enemy_fighter_state_attack(){
 	
 	// find and face nearest target
 	
-	var _t = instance_nearest(x,y,oParentEnemy);
+	var _t = instance_nearest(x,y,oParentFriendly);
 	image_angle = point_direction(x, y, _t.x, _t.y);
 	direction = image_angle;
 	if (distance_to_object(_t) <= attackRange) {

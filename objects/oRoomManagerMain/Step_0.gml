@@ -1,7 +1,7 @@
 if (timerLength > 0) {
 	timerLength--; 
 } else {
-	with(oFighter) {
+	with(oCombatEntity) {
 		// reset all NPCs at top of new round
 		speed = 0;
 		state_switch("Waiting");

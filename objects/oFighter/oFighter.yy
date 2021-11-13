@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oParentFriendly",
+    "path": "objects/oParentFriendly/oParentFriendly.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
