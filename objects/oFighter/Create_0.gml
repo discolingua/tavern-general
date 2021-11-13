@@ -22,6 +22,7 @@ if (initiativeOrder < 1) {
 
 attackRange = 100;
 attackStrength = 6;
+moveSpeed = .2;
 
 charName = nameGen();
 
