@@ -13,7 +13,7 @@ function fighter_state_attack(){
 		_i.direction = point_direction(x, y, _t.x, _t.y);
 		_i.speed = 15;
 		_i.toHit = floor(random(20)) + 1 + statBonus(other.statStr);
-		_i.damage = random(8) + 1 + statBonus(other.statStr);
+		_i.damage = random(other.attackStrength) + 1 + statBonus(other.statStr);
 	} else {
 		
 		// move towards nearest target if nothing in range

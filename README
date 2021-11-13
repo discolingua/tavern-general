@@ -1,0 +1,53 @@
+TAVERN HERO
+
+(WORK EXTREMELY IN PROGRESS)
+
+@BunnzoSteel or @discolingua (Twitter)
+
+
+===================
+
+STORY
+
+The mayor of Tall Oak convened an emergency town meeting in the common hall of the inn.
+News from recent caravans told that the Northern Empire was sending scouting
+parties, looking to open trade routes with the merchant citadels on the other side
+of the great forest. That meant sooner or later, the Empire was likely to send troops
+to the village of Tall Oak and turn their quiet community into an Imperial outpost. 
+
+The mayor asked for volunteers to meet the enemy threat up the road. The Sword Hero
+stepped forth immediately and rode to battle the next morning. By afternoon, their horse
+rode back to the village alone, it was clear the Hero had been outnumbered by bandits and
+had fallen. The Mage Hero stepped up and swore to save the village. Onlookers said the
+Hero's magic stood no chance against the constant rain of arrows from Imperial archers.
+The general feeling was that the life they had known and loved was doomed. There were 
+some able-bodied workers who could learn to hold a sword, but no one to train them or
+drill them in tactics. 
+
+"I'll raise a force." It was that mysterious nerd who spent every night in the upstairs
+room of the tavern, pushing painted wooden figurines around a felt-covered table. Jeers
+and rude laughter filled the hall. "I'm serious. Sure I've never swung a sword but I know
+this valley and these people better than anybody. I've studied tactics and history and
+anatomy and economics and psychology. I know how to bring people together." The
+mysterious nerd punctuated this by tossing a jangling leather coin pouch in the air.
+
+
+------------
+
+
+TAVERN HERO is an autobattler / RTS / tower defense inspired game with combat mechanics
+based on the D20 tabletop ruleset. The eponymous hero is a command unit who summons forth
+rabble onto the battlefield to fight some hostiles. 
+
+Arrow keys move Tavern Hero.
+Space key calls forth a fighter. This is a randomly generated 1st level D20 fighter.
+You can mouseover a character for a status line at the top of the screen:
+
+"Name [ HP ] STR DEX CON"
+
+The STR/DEX/CON numbers shown the ability mods (0 or +2 etc.) but stats are rolled
+3d6 in order internally. 
+
+Combat loosely follows D20 conventions, units act in initiative order and attacks have
+to-hit and damage rolls modified by the appropriate stat.
+

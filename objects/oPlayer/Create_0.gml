@@ -32,7 +32,6 @@ jump_released=false;
 // Trigger a summon
 summon_pressed=false;
 
-///Setup State Machine for Platform Boy
 state_machine_init();
 
 //Define States
