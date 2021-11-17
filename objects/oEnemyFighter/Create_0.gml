@@ -15,6 +15,7 @@ statArmorClass = 10 + statBonus(statDex);
 if (statHP < 1) { statHP = 1; }
 
 // get initiative order with DEX bonus
+// use floats so there's never ties
 initiativeOrder = (random(20) + 1 + statBonus(statDex));
 if (initiativeOrder < 1) { 
 	initiativeOrder = random(1); 
@@ -22,7 +23,7 @@ if (initiativeOrder < 1) {
 	initiativeOrder *= 10;
 }
 
-attackRange = 100;
+attackRange = 30;
 attackStrength = 8;
 moveSpeed = .5;
 

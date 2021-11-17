@@ -22,9 +22,9 @@ if (initiativeOrder < 1) {
 	initiativeOrder *= 10;
 }
 
-attackRange = 100;
+attackRange = 30;
 attackStrength = 8;
-moveSpeed = 1;
+moveSpeed = .5;
 
 charName = nameGen();
 

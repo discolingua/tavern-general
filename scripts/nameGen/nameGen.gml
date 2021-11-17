@@ -1,8 +1,9 @@
 function nameGen(){
 	static namesFirstPart = ["Aeo","Bor","Crag","Cran","Gar","Gron",
 							"Lon","Lor","Loth", "Mar",
-		"Tar", "Sar", "Smith","Skul", "War", "Wulf", "Xon" ];
-	static namesSecondPart = ["anth","bold", "burrow", "gar", "gron", "krod",
+		"Tar", "Thoro", "Sar", "Smith","Skul", "War", "Wulf", "Xon" ];
+	static namesSecondPart = ["anth","bold", "burrow", "gar", "guard", "gron", 
+							"hill", "kill", "krod", "laxx", "lon", "lyon",
 							 "mar", "mon", "rath", "tor", "ules","vrax" ];
 	
 	// array size, subtract one for irandom

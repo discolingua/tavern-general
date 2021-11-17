@@ -8,3 +8,5 @@ targetInstance = noone;
 
 timerLengthMax = 200;
 timerLength = 0;
+
+randomize();
