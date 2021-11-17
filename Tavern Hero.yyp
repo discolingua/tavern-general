@@ -3,6 +3,7 @@
     {"id":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},"order":0,},
     {"id":{"name":"pb_state_stand","path":"scripts/pb_state_stand/pb_state_stand.yy",},"order":1,},
     {"id":{"name":"oSwordHit","path":"objects/oSwordHit/oSwordHit.yy",},"order":21,},
+    {"id":{"name":"oParentAttack","path":"objects/oParentAttack/oParentAttack.yy",},"order":3,},
     {"id":{"name":"pb_state_walk","path":"scripts/pb_state_walk/pb_state_walk.yy",},"order":3,},
     {"id":{"name":"place_meeting_rounded","path":"scripts/place_meeting_rounded/place_meeting_rounded.yy",},"order":1,},
     {"id":{"name":"oFighter","path":"objects/oFighter/oFighter.yy",},"order":20,},
