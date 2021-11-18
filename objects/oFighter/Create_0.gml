@@ -22,14 +22,18 @@ if (initiativeOrder < 1) {
 	initiativeOrder *= 10;
 }
 
-attackRange = 30;
+attackRange = 40;
 attackStrength = 8;
-moveSpeed = .5;
+moveSpeed = .4;
 
 charName = nameGen();
 
 mouseOver = false;
+
+// used by room manager to reset state-managed mobs
 isMob = true;
+
+// used in enemyIsHit and friendlyIsHit collision tests
 isFriendly = true;
 
 
