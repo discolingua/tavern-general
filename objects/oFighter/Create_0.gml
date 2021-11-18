@@ -5,6 +5,7 @@ statInt = rollStat();
 statWis = rollStat();
 statChr = rollStat();
 
+statLevel = 1;
 
 // 1d8 + CON bonus for HP
 statHP = floor(random(8)) + 1 + statBonus(statCon);
@@ -12,7 +13,10 @@ statHP = floor(random(8)) + 1 + statBonus(statCon);
 statArmorClass = 10 + statBonus(statDex);
 
 // everybody gets at least 1HP
-if (statHP < 1) { statHP = 1; }
+if (statHP < 1) { 
+	statHP = 1; 
+	statMaxHP = statHP;
+}
 
 // get initiative order with DEX bonus
 initiativeOrder = (random(20) + 1 + statBonus(statDex));
@@ -44,6 +48,7 @@ state_machine_init();
 state_create("Waiting",fighter_state_waiting);
 state_create("Attack",fighter_state_attack);
 state_create("Attacked",fighter_state_attacked);
+state_create("Tavern",fighter_state_tavern);
 
 //Set the default state
 state_init("Waiting");

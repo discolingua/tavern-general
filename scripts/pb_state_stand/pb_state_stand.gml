@@ -9,8 +9,7 @@ function pb_state_stand() {
 	}
 
 	if(summon_pressed) {
-	
-	instance_create_layer(x,y,"Instances",oFighter);
+		instance_create_layer(x,y,"Instances",oFighter);
 	}
 
 	if((left_held && !place_meeting_rounded(x-1,y,oWall))|| 
