@@ -10,7 +10,7 @@ function fighter_state_attack(){
 		// if in range, spawn a bullet instance with D20 stats
 		
 		var _i = instance_create_layer(x,y,"Instances",oSwordHit);
-		_i.direction = point_direction(x, y, _t.x, _t.y) + 45;
+		_i.direction = point_direction(x, y, _t.x, _t.y);
 		_i.speed = 5;
 		_i.isFriendly = true;
 		_i.toHit = floor(random(20)) + 1 + statBonus(other.statStr);
