@@ -1,4 +1,4 @@
-
+randomize();
 
 // generate some npcs for potential recruitment
 

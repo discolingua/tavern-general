@@ -43,6 +43,7 @@
     {"id":{"name":"rollStat","path":"scripts/rollStat/rollStat.yy",},"order":0,},
     {"id":{"name":"state_switch_previous","path":"scripts/state_switch_previous/state_switch_previous.yy",},"order":13,},
     {"id":{"name":"state_update","path":"scripts/state_update/state_update.yy",},"order":15,},
+    {"id":{"name":"oCharacterPool","path":"objects/oCharacterPool/oCharacterPool.yy",},"order":25,},
     {"id":{"name":"roomTavern","path":"rooms/roomTavern/roomTavern.yy",},"order":1,},
     {"id":{"name":"nameGen","path":"scripts/nameGen/nameGen.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":6,},

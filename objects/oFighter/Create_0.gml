@@ -10,6 +10,10 @@ statLevel = 1;
 // 1d8 + CON bonus for HP
 statHP = floor(random(8)) + 1 + statBonus(statCon);
 
+
+// track max HP to heal between maps 
+statMaxHP = statHP;
+
 statArmorClass = 10 + statBonus(statDex);
 
 // everybody gets at least 1HP
