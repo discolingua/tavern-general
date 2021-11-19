@@ -1,3 +1,10 @@
+
+// store sprite frame for consistency
+spriteFrame = floor(random(5));
+image_index = spriteFrame;
+
+
+// 3d6 stats in order
 statStr = rollStat();
 statDex = rollStat();
 statCon = rollStat();
