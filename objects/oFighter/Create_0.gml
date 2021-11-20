@@ -60,6 +60,7 @@ state_create("Waiting",fighter_state_waiting);
 state_create("Attack",fighter_state_attack);
 state_create("Attacked",fighter_state_attacked);
 state_create("Tavern",fighter_state_tavern);
+state_create("Inventory",fighter_state_inventory);
 
 //Set the default state
 state_init("Waiting");

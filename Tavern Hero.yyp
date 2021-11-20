@@ -11,6 +11,7 @@
     {"id":{"name":"oFighter","path":"objects/oFighter/oFighter.yy",},"order":20,},
     {"id":{"name":"oEnemyFighter","path":"objects/oEnemyFighter/oEnemyFighter.yy",},"order":23,},
     {"id":{"name":"sprGreen","path":"sprites/sprGreen/sprGreen.yy",},"order":0,},
+    {"id":{"name":"fighter_state_inventory","path":"scripts/fighter_state_inventory/fighter_state_inventory.yy",},"order":7,},
     {"id":{"name":"oMaintSign","path":"objects/oMaintSign/oMaintSign.yy",},"order":18,},
     {"id":{"name":"position_meeting_rounded","path":"scripts/position_meeting_rounded/position_meeting_rounded.yy",},"order":3,},
     {"id":{"name":"sprHelpBook","path":"sprites/sprHelpBook/sprHelpBook.yy",},"order":10,},

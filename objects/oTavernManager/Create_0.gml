@@ -1,5 +1,5 @@
 randomize();
-audio_play_sound(musTavern, 1, true);
+// audio_play_sound(musTavern, 1, true);
 
 // generate some npcs for potential recruitment
 

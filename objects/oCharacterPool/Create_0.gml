@@ -1,6 +1,7 @@
 #macro PARTY_SLOTS 12
 
 global.characterPool = array_create(PARTY_SLOTS, -1);
+global.charsInPool = 0;
 
 global.playerSilver = 50;
 

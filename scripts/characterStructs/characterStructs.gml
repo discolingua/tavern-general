@@ -13,12 +13,18 @@ function moveCharacterToParty() {
 			statMaxHP: statMaxHP,
 			statLevel: statLevel
 		}
-		array_push (global.characterPool, _character);
+		global.characterPool[global.charsInPool++] = _character;
 		show_debug_message("hired " + string(charName));
 	}
 }
 
-
+function loadCharactersFromPool() {
+	for (var _i = 0; _i < PARTY_SLOTS; _i++) {
+		if ( is_struct(global.characterPool[_i] )) {
+			show_debug_message( "is in slot " );
+		}
+	}
+}
 
 //function characterStructs(){
 //	var _characterPool = array_create(0);
