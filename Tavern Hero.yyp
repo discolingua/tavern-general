@@ -27,6 +27,7 @@
     {"id":{"name":"enemy_fighter_state_attacked","path":"scripts/enemy_fighter_state_attacked/enemy_fighter_state_attacked.yy",},"order":4,},
     {"id":{"name":"sprTilemap","path":"sprites/sprTilemap/sprTilemap.yy",},"order":8,},
     {"id":{"name":"state_create","path":"scripts/state_create/state_create.yy",},"order":3,},
+    {"id":{"name":"sprCharPool","path":"sprites/sprCharPool/sprCharPool.yy",},"order":11,},
     {"id":{"name":"friendlyIsHit","path":"scripts/friendlyIsHit/friendlyIsHit.yy",},"order":9,},
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},"order":0,},
     {"id":{"name":"state_cleanup","path":"scripts/state_cleanup/state_cleanup.yy",},"order":5,},
