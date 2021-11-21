@@ -1,8 +1,9 @@
 function moveCharacterToParty() {
 	with (other) {
 		var _character = {
-			obj: object_get_name(object_index),
+			charInstance: id,
 			charName: charName,
+			spriteFrame: spriteFrame,
 			statStr: statStr,
 			statDex: statDex,
 			statCon: statCon,
@@ -21,7 +22,8 @@ function moveCharacterToParty() {
 function loadCharactersFromPool() {
 	for (var _i = 0; _i < PARTY_SLOTS; _i++) {
 		if ( is_struct(global.characterPool[_i] )) {
-			show_debug_message( "is in slot " );
+			show_debug_message( string(global.characterPool[_i].charName) + "is in slot " );
+			charInstance.visible = true;
 		}
 	}
 }
