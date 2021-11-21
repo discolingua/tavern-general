@@ -5,7 +5,7 @@ if (timerLength > 0) {
 	
 	// reset all NPCs at top of new round
 	with(oCombatEntity) {		
-		if (isMob) {
+		if (isMob && state_name != "Inventory") {
 			speed = 0;
 			state_switch("Waiting");
 		}

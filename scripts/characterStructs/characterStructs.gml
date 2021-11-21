@@ -14,6 +14,12 @@ function moveCharacterToParty() {
 			statMaxHP: statMaxHP,
 			statLevel: statLevel
 		}
+		
+		// keep NPCs persistent only in party roster
+		
+		id.persistent = true;
+		id.layer = layer_get_id("Inventory");
+		
 		global.characterPool[global.charsInPool++] = _character;
 		show_debug_message("hired " + string(charName));
 	}
