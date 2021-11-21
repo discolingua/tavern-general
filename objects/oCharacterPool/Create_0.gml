@@ -10,12 +10,9 @@ global.adjDex = [ "SLOW!!", "SLOW!", "SLOW", "slow", "", "fast", "FAST", "FAST!"
 global.adjCon = [ "SICKLY!!", "SICKLY!", "SICKLY", "sickly", "", "tough", "TOUGH", "TOUGH!", "TOUGH!!"];
 
 rowLength = 6;
-colHeight = 2;
 slotSize = 48;
 borderSize = 16;
 
 isVisible = false;
 
-image_xscale = 6;
-image_yscale = 2;
 visible = false;
