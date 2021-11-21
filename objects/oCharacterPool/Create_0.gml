@@ -15,3 +15,7 @@ slotSize = 48;
 borderSize = 16;
 
 isVisible = false;
+
+image_xscale = 6;
+image_yscale = 2;
+visible = false;
