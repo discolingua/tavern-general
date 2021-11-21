@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprCharPool",
+    "path": "sprites/sprCharPool/sprCharPool.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

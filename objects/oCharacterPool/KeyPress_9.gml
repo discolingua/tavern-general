@@ -1,5 +1,13 @@
 if (isVisible) {
+	for (var _i = 0; _i < PARTY_SLOTS; _i++) {
+		if ( is_struct(global.characterPool[_i] )) {
+			with (global.characterPool[_i]) {
+				charInstance.visible = false;
+			}
+		}
+	}
 	isVisible = false;
+	
 } else {
 	
 	// refresh objects in pool when toggling visisble
@@ -8,12 +16,13 @@ if (isVisible) {
 		var _y = y + (_i div rowLength * slotSize) + borderSize;
 		if ( is_struct(global.characterPool[_i] )) {
 			with (global.characterPool[_i]) {
-				show_debug_message(string(charName));
+				show_debug_message(string(charName) + " on layer " + 
+					string( layer_get_depth(charInstance.layer)));
 				charInstance.visible = true;
 				charInstance.x = _x;
 				charInstance.y = _y;
-				charInstance.depth = -100;
 				charInstance.direction +=5;
+				charInstance.layer = layer_get_id("Inventory");
 			}
 		}
 	}
