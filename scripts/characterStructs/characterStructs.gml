@@ -30,7 +30,7 @@ function refreshCharaterPool() {
 				charInstance.visible = true;
 				charInstance.x = _x;
 				charInstance.y = _y;
-				charInstance.image_angle +=270;
+				charInstance.image_angle = 270;
 				charInstance.layer = layer_get_id("Inventory");
 			}
 		}
