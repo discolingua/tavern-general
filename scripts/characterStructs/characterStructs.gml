@@ -1,3 +1,13 @@
+function clearCharacterFromPool(_id) {
+	for ( _i = 0; _i < 12; _i++) {
+		if ( is_struct(global.characterPool[_i] )) {
+			if (global.characterPool[_i].charInstance = _id) {
+				global.characterPool[_i] = -1;
+			}
+		}
+	}
+}
+
 function moveCharacterToParty() {
 	with (other) {
 		var _character = {
