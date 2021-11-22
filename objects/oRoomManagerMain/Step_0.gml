@@ -1,3 +1,9 @@
+if (!object_exists(oParentEnemy)) {
+	show_debug_message("enemies clear");	
+}
+
+
+// inventory countdown timer
 if (timerLength > 0) {
 	timerLength--; 
 
