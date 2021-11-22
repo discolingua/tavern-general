@@ -1,6 +1,21 @@
-if (!object_exists(oParentEnemy)) {
-	show_debug_message("enemies clear");	
-}
+if (!instance_exists(oParentEnemy)) {
+
+	// check if all enemies are gone and
+	// collect all remaining friendlies
+	
+	if (!instance_exists(oParentFriendly)) {
+		show_debug_message("everyone died! This will go to game over");
+	} else {
+		with (oFighter){
+			if (id.layer != layer_get_id("Inventory")) {
+			//	moveCharacterToParty();
+			}
+		}
+		room_goto(roomTavern);
+		show_debug_message("go to tavern");
+		
+	}
+} else {
 
 
 // inventory countdown timer
@@ -24,4 +39,5 @@ if (timerLength > 0) {
 	
 	audio_play_sound_at(sndBell, 0, 0, 0, 100, 300, 1, false, 2);
 	timerLength = timerLengthMax;
+}
 }
