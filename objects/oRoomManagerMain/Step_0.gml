@@ -10,6 +10,9 @@ if (!instance_exists(oParentEnemy)) {
 			moveCharacterToParty(id);
 		}
 	}
+	
+	// clean up any NPCs remaining
+	
 	instance_destroy(oParentFriendly);
 	room_goto(roomTavern);
 	show_debug_message("go to tavern");
