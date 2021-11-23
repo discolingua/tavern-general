@@ -63,7 +63,7 @@ function moveCharacterFromParty( i ) {
 /// @param {inst}		real	Instance ID of character to move into party
 /// @description				Moves an instanced character into the character pool
 
-function moveCharacterToParty( inst) {
+function moveCharacterToParty( inst ) {
 	
 	
 	// adds characters to party via tavern purchase or end of map
