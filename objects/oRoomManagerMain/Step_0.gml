@@ -8,7 +8,7 @@ if (!instance_exists(oParentEnemy)) {
 	} else {
 		with (oFighter){
 			if (id.layer != layer_get_id("Inventory")) {
-			//	moveCharacterToParty();
+			moveCharacterToParty();
 			}
 		}
 		room_goto(roomTavern);

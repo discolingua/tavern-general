@@ -1,0 +1,2 @@
+mouseOver = false;
+characterPoolDisplayString = " ";
