@@ -1,9 +1,12 @@
 if (mouseOver) {
 	
-	xCell = (mouse_x - x + borderSize) div (slotSize);
-	yCell = (mouse_y - y + borderSize) div (slotSize);
+	// find index of the cell with mouse over and see if it needs a stat block
 	
-	highlightedCell = xCell + (rowLength * yCell);
+	var _xCell = (mouse_x - x + BORDER_SIZE) div (SLOT_SIZE);
+	var _yCell = (mouse_y - y + BORDER_SIZE) div (SLOT_SIZE);
+	
+	var _cell = _xCell + (ROW_LENGTH * _yCell);
 
-	characterPoolDisplayString = "Highlighting cell " + string(highlightedCell);
+	characterInfoString = buildCharacterInfoString(_cell);
+	
 }

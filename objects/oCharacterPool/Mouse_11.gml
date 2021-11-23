@@ -1,2 +1,2 @@
 mouseOver = false;
-characterPoolDisplayString = " ";
+characterInfoString = "";

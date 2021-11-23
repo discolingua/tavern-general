@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Chargen Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "characterStructs",
+  "name": "characterPoolScripts",
   "tags": [],
   "resourceType": "GMScript",
 }

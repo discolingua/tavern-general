@@ -19,7 +19,7 @@
     {"id":{"name":"sprHelpBook","path":"sprites/sprHelpBook/sprHelpBook.yy",},"order":10,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":5,},
     {"id":{"name":"sprEnemyGoon","path":"sprites/sprEnemyGoon/sprEnemyGoon.yy",},"order":5,},
-    {"id":{"name":"characterStructs","path":"scripts/characterStructs/characterStructs.yy",},"order":3,},
+    {"id":{"name":"characterPoolScripts","path":"scripts/characterPoolScripts/characterPoolScripts.yy",},"order":3,},
     {"id":{"name":"sprChest","path":"sprites/sprChest/sprChest.yy",},"order":4,},
     {"id":{"name":"draw_set_text_alignment","path":"scripts/draw_set_text_alignment/draw_set_text_alignment.yy",},"order":7,},
     {"id":{"name":"state_machine_init","path":"scripts/state_machine_init/state_machine_init.yy",},"order":1,},
