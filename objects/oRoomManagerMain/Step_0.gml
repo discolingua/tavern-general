@@ -7,14 +7,13 @@ if (!instance_exists(oParentEnemy)) {
 		show_debug_message("everyone died! This will go to game over");
 	} else {
 		with (oFighter){
-			if (id.layer != layer_get_id("Inventory")) {
-			moveCharacterToParty();
-			}
+			moveCharacterToParty(id);
 		}
-		room_goto(roomTavern);
-		show_debug_message("go to tavern");
-		
 	}
+	instance_destroy(oFighter);
+	room_goto(roomTavern);
+	show_debug_message("go to tavern");
+	
 } else {
 
 
