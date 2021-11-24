@@ -1,9 +1,9 @@
 
-/// @function					buildCharacterInfoString( i )
-/// @param { i }		int		Index in character pool to build stat block
+/// @function					buildCharacterInfoString( _i )
+/// @param { real }		_i		Index in character pool to build stat block
 /// @description				Build a stat block mousing over chars in party
 
-function buildCharacterInfoString(i) {
+function buildCharacterInfoString(_i) {
 	
 		// this builds the stat block string for highlighting
 		// party NPCs in character pool (onfield needs differnt code)
@@ -11,8 +11,8 @@ function buildCharacterInfoString(i) {
 		var _s;
 		var _c = {};
 		
-		if is_struct(global.characterPool[i]) {
-			_c = global.characterPool[i];
+		if is_struct(global.characterPool[_i]) {
+			_c = global.characterPool[_i];
 			
 			_s = _c.charName + " [" + string(floor(_c.statHP)) + "]  " +
 				  string(global.adjStr[statBonus(_c.statStr) +4 ]) + " " +
@@ -27,13 +27,13 @@ function buildCharacterInfoString(i) {
 }
 
 
-/// @function                 moveCharacterFromParty( i );
-/// @param {i}			int	  Index in character pool to be moved from party
+/// @function                 moveCharacterFromParty( _i );
+/// @param {real}		_i	  Index in character pool to be moved from party
 /// @description              Move a character from the party to the field
 
-function moveCharacterFromParty( i ) {
+function moveCharacterFromParty( _i ) {
 	
-	var _char = global.characterPool[i];
+	var _char = global.characterPool[_i];
 
 	// create a new fighter instance
 	
@@ -54,23 +54,24 @@ function moveCharacterFromParty( i ) {
 	_inst.statMaxHP = _char.statMaxHP;
 	_inst.statHP = _char.statHP;
 	_inst.statLevel = _char.statLevel;
+	_inst.statXP = _char.statXP;
 	
-	global.characterPool[i] = -1;
+	global.characterPool[_i] = -1;
 }
 
 
-/// @function					moveCharaterToParty( inst )
-/// @param {inst}		real	Instance ID of character to move into party
+/// @function					moveCharaterToParty( _inst )
+/// @param {real}		_inst	Instance ID of character to move into party
 /// @description				Moves an instanced character into the character pool
 
-function moveCharacterToParty( inst ) {
+function moveCharacterToParty( _inst ) {
 	
 	
 	// adds characters to party via tavern purchase or end of map
 	
 	
 	// make a struct to hold the character's stats
-	with (inst) {	
+	with (_inst) {	
 		var _character = {
 			charName: charName,
 			spriteFrame: spriteFrame,
@@ -83,7 +84,8 @@ function moveCharacterToParty( inst ) {
 			statArmorClass: statArmorClass,
 			statMaxHP: statMaxHP,
 			statHP: statHP,
-			statLevel: statLevel
+			statLevel: statLevel,
+			statXP: statXP
 		}
 	}
 		
@@ -98,6 +100,6 @@ function moveCharacterToParty( inst ) {
 		}
 	}
 	show_debug_message("hired " + string(charName));
-	instance_destroy(inst);
+	instance_destroy(_inst);
 }
 	

@@ -13,6 +13,7 @@ statWis = rollStat();
 statChr = rollStat();
 
 statLevel = 1;
+statXP = 0;
 
 // 1d8 + CON bonus for HP
 statHP = floor(random(8)) + 1 + statBonus(statCon);
