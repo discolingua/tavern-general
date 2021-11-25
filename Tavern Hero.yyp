@@ -12,6 +12,7 @@
     {"id":{"name":"oFighter","path":"objects/oFighter/oFighter.yy",},"order":20,},
     {"id":{"name":"sprDoor","path":"sprites/sprDoor/sprDoor.yy",},"order":1,},
     {"id":{"name":"oEnemyFighter","path":"objects/oEnemyFighter/oEnemyFighter.yy",},"order":23,},
+    {"id":{"name":"oVictoryManager","path":"objects/oVictoryManager/oVictoryManager.yy",},"order":29,},
     {"id":{"name":"sprTitleScreen","path":"sprites/sprTitleScreen/sprTitleScreen.yy",},"order":12,},
     {"id":{"name":"sprGreen","path":"sprites/sprGreen/sprGreen.yy",},"order":0,},
     {"id":{"name":"fighter_state_inventory","path":"scripts/fighter_state_inventory/fighter_state_inventory.yy",},"order":7,},
