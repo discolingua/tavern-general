@@ -43,10 +43,10 @@
   "creationCodeFile": "${project_dir}/rooms/roomTavern/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_6CB55F99","path":"rooms/roomTavern/roomTavern.yy",},
-    {"name":"inst_45B3B859","path":"rooms/roomTavern/roomTavern.yy",},
-    {"name":"inst_5C77290E","path":"rooms/roomTavern/roomTavern.yy",},
-    {"name":"inst_522B6979","path":"rooms/roomTavern/roomTavern.yy",},
+    {"name":"inst_6CB55F99","path":"rooms/rmTavern/rmTavern.yy",},
+    {"name":"inst_45B3B859","path":"rooms/rmTavern/rmTavern.yy",},
+    {"name":"inst_5C77290E","path":"rooms/rmTavern/rmTavern.yy",},
+    {"name":"inst_522B6979","path":"rooms/rmTavern/rmTavern.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -74,7 +74,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "roomTavern",
+  "name": "rmTavern",
   "tags": [],
   "resourceType": "GMRoom",
 }
