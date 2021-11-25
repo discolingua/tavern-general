@@ -8,7 +8,7 @@ var _cell = _xCell + (ROW_LENGTH * _yCell);
 
 if is_struct( global.characterPool[_cell] ) {
 	switch (room) {
-		case roomTavern:
+		case rmTavern:
 			show_debug_message("tavern clicks");
 			break;
 		default:

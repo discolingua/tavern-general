@@ -14,8 +14,8 @@ if (!instance_exists(oParentEnemy)) {
 	// clean up any NPCs remaining
 	
 	instance_destroy(oParentFriendly);
-	room_goto(roomTavern);
-	show_debug_message("go to tavern");
+	room_goto(rmVictoryScreen);
+	show_debug_message("go to victory screen");
 	
 } else {
 

@@ -65,6 +65,7 @@
     {"id":{"name":"oBook","path":"objects/oBook/oBook.yy",},"order":27,},
     {"id":{"name":"nameGen","path":"scripts/nameGen/nameGen.yy",},"order":2,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":6,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"sndSwordSwing","path":"sounds/sndSwordSwing/sndSwordSwing.yy",},"order":1,},
     {"id":{"name":"fighter_state_waiting","path":"scripts/fighter_state_waiting/fighter_state_waiting.yy",},"order":0,},
     {"id":{"name":"particleDestroy","path":"scripts/particleDestroy/particleDestroy.yy",},"order":5,},

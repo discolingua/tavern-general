@@ -8,16 +8,22 @@ function buildCharacterInfoString(_i) {
 		// this builds the stat block string for highlighting
 		// party NPCs in character pool (onfield needs differnt code)
 
-		var _s;
-		var _c = {};
+		var _s = "";
+		var _myHP = "";
 		
 		if is_struct(global.characterPool[_i]) {
-			_c = global.characterPool[_i];
+			with(global.characterPool[_i]) {;
+			if (floor(statHP) == statMaxHP) {
+				_myHP = "[ " + string(statMaxHP) + " ]";
+			} else {
+				_myHP = "[ " + string(statHP) + " / " + string(statMaxHP) + " ]";
+			}
 			
-			_s = _c.charName + " [" + string(floor(_c.statHP)) + "]  " +
+			_s = charName + _myHP +
 				  string(global.adjStr[statBonus(_c.statStr) +4 ]) + " " +
 				  string(global.adjDex[statBonus(_c.statDex) + 4]) + " " +
 				  string(global.adjCon[statBonus(_c.statCon) + 4]) + " ";
+			}
 		} else {
 			_s = "";
 		}
