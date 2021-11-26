@@ -7,9 +7,11 @@ function fighter_state_waiting() {
 	var _pushspd = 2;
 	var _col = instance_place(x,y,oCombatEntity);
 	if(_col){
-		var _dist = sign(x - _col.x) * _pushspd;
-		if(!place_meeting(x + _dist, y, oWall))
-		x += _dist;
+		var _xd = sign(x - _col.x) * _pushspd;
+		var _yd = sign(y - _col.y) * _pushspd;
+		if(!place_meeting(x + _xd, y + _yd, oWall))
+		x += _xd;
+		y += _yd;
 	}
 	
 }

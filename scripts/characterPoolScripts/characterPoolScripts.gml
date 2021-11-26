@@ -6,7 +6,7 @@
 function buildCharacterInfoString(_i) {
 	
 		// this builds the stat block string for highlighting
-		// party NPCs in character pool (onfield needs differnt code)
+		// party NPCs in character pool
 
 		var _s = "";
 		var _myHP = "";
@@ -19,10 +19,13 @@ function buildCharacterInfoString(_i) {
 				_myHP = "[ " + string(statHP) + " / " + string(statMaxHP) + " ]";
 			}
 			
+			// add +4 because a stat can have a negative mod but array index
+			// must start at zero
+			
 			_s = charName + _myHP +
-				  string(global.adjStr[statBonus(_c.statStr) +4 ]) + " " +
-				  string(global.adjDex[statBonus(_c.statDex) + 4]) + " " +
-				  string(global.adjCon[statBonus(_c.statCon) + 4]) + " ";
+				  string(global.adjStr[statBonus(statStr) + 4]) + " " +
+				  string(global.adjDex[statBonus(statDex) + 4]) + " " +
+				  string(global.adjCon[statBonus(statCon) + 4]) + " ";
 			}
 		} else {
 			_s = "";
@@ -60,6 +63,7 @@ function moveCharacterFromParty( _i ) {
 	_inst.statMaxHP = _char.statMaxHP;
 	_inst.statHP = _char.statHP;
 	_inst.statLevel = _char.statLevel;
+	_inst.attackStats = _char.attackStats;
 	_inst.statXP = _char.statXP;
 	
 	global.characterPool[_i] = -1;
@@ -91,6 +95,7 @@ function moveCharacterToParty( _inst ) {
 			statMaxHP: statMaxHP,
 			statHP: statHP,
 			statLevel: statLevel,
+			attackStats: attackStats,
 			statXP: statXP
 		}
 	}

@@ -23,8 +23,12 @@ if (initiativeOrder < 1) {
 	initiativeOrder *= 10;
 }
 
-attackRange = 30;
-attackStrength = 8;
+attackStats = {};
+attackStats[0] = {
+	attackRange: 40,
+	attackStrength: 8
+}
+
 moveSpeed = .5;
 
 charName = nameGen();
