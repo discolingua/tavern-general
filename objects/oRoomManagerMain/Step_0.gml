@@ -1,7 +1,8 @@
+// Check to see if all enemies are gone
+
 if (!instance_exists(oParentEnemy)) {
 
-	// check if all enemies are gone and
-	// collect all remaining friendlies
+	// Move characters back into the party pool
 	
 	if (!instance_exists(oParentFriendly)) {
 		show_debug_message("everyone died! This will go to game over");
@@ -20,7 +21,8 @@ if (!instance_exists(oParentEnemy)) {
 } else {
 
 
-// inventory countdown timer
+// start of normal round loop
+
 if (timerLength > 0) {
 	timerLength--; 
 
@@ -31,6 +33,7 @@ if (timerLength > 0) {
 		if (isMob && state_name != "Inventory") {
 			speed = 0;
 			state_switch("Waiting");
+			initiativeOrder = rollInitiative(statDex);
 		}
 	}
 	

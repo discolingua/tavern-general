@@ -31,12 +31,7 @@ if (statHP < 1) {
 }
 
 // get initiative order with DEX bonus
-initiativeOrder = (random(20) + 1 + statBonus(statDex));
-if (initiativeOrder < 1) { 
-	initiativeOrder = random(1); 
-} else {
-	initiativeOrder *= 10;
-}
+initiativeOrder = rollInitiative(statDex);
 
 // attackRange = 40;
 // attackStrength = 8;

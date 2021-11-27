@@ -5,6 +5,7 @@
     {"id":{"name":"musTavern","path":"sounds/musTavern/musTavern.yy",},"order":3,},
     {"id":{"name":"pb_state_stand","path":"scripts/pb_state_stand/pb_state_stand.yy",},"order":1,},
     {"id":{"name":"oSwordHit","path":"objects/oSwordHit/oSwordHit.yy",},"order":21,},
+    {"id":{"name":"diceHelpers","path":"scripts/diceHelpers/diceHelpers.yy",},"order":10,},
     {"id":{"name":"oParentAttack","path":"objects/oParentAttack/oParentAttack.yy",},"order":3,},
     {"id":{"name":"sndPain2","path":"sounds/sndPain2/sndPain2.yy",},"order":5,},
     {"id":{"name":"pb_state_walk","path":"scripts/pb_state_walk/pb_state_walk.yy",},"order":3,},

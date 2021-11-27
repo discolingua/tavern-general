@@ -1,4 +1,4 @@
-isVisible = true;
+isVisible = false;
 mouseOver = false;
 
-visible = true;
+visible = false;
