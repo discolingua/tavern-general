@@ -21,8 +21,11 @@ for (var _i = 0; _i < PARTY_SLOTS; _i++) {
 
 	if ( _infoString != "" ) {
 		var _buttonHeal = instance_create_layer(500, _y, "Instances", oButtonHeal);
+		_buttonHeal.image_yscale *= 2;
+		_buttonHeal.characterIndex = _i;
 	
 		var _buttonLevelUp = instance_create_layer(550, _y, "Instances", oButtonLevelUp);
+		_buttonLevelUp.image_yscale *= 2;
 	}
 	
 }
