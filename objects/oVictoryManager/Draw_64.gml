@@ -2,7 +2,13 @@
 // Draw GUI Event for victory / level-up screen
 
 
+// silver counter and coin icon
 
+drawCoinCounter();
+
+
+
+// main loop to show aggregate party report
 
 for (var _i = 0; _i < PARTY_SLOTS; _i++) {
 	var _y = 220 +_i * 22;
@@ -35,6 +41,7 @@ for (var _i = 0; _i < PARTY_SLOTS; _i++) {
 		if (_char.statXP >= _char.statLevel) {
 			var _buttonLevelUp = instance_create_layer(550, _y, "Instances", oButtonLevelUp);
 			_buttonLevelUp.image_yscale *= 2;
+			_buttonLevelUp.characterIndex = _i;
 		}
 	}
 	

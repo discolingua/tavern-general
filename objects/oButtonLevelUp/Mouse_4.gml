@@ -1,0 +1,1 @@
+characterLevelUp(characterIndex);

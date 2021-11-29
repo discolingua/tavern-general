@@ -1,3 +1,5 @@
+audio_play_sound(musTavern, 1, true);
+isTavernMusic = true;
 
 // generate some npcs for potential recruitment
 

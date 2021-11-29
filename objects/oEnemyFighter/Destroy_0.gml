@@ -1,0 +1,1 @@
+global.playerSilver += 5 + floor(random(5));
