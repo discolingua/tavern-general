@@ -46,6 +46,7 @@
     {"id":{"name":"rmMap01","path":"rooms/rmMap01/rmMap01.yy",},"order":0,},
     {"id":{"name":"state_cleanup","path":"scripts/state_cleanup/state_cleanup.yy",},"order":5,},
     {"id":{"name":"enemy_fighter_state_attack","path":"scripts/enemy_fighter_state_attack/enemy_fighter_state_attack.yy",},"order":3,},
+    {"id":{"name":"oParentButton","path":"objects/oParentButton/oParentButton.yy",},"order":4,},
     {"id":{"name":"state_execute","path":"scripts/state_execute/state_execute.yy",},"order":7,},
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},"order":2,},
     {"id":{"name":"oTavernManager","path":"objects/oTavernManager/oTavernManager.yy",},"order":24,},

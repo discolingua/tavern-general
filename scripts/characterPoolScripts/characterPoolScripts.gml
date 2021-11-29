@@ -14,9 +14,9 @@ function buildCharacterInfoString(_i) {
 		if is_struct(global.characterPool[_i]) {
 			with(global.characterPool[_i]) {;
 			if (floor(statHP) == statMaxHP) {
-				_myHP = "[ " + string(statMaxHP) + " ]";
+				_myHP = "[ " + string(statMaxHP) + " ] ";
 			} else {
-				_myHP = "[ " + string(statHP) + " / " + string(statMaxHP) + " ]";
+				_myHP = "[ " + string(floor(statHP)) + " / " + string(statMaxHP) + " ] ";
 			}
 			
 			// add +4 because a stat can have a negative mod but array index
@@ -37,7 +37,7 @@ function buildCharacterInfoString(_i) {
 
 
 /// @function                 moveCharacterFromParty( _i );
-/// @param {real}		_i	  Index in character pool to be moved from party
+/// @param {real}		_i	  Index in character pool to move from party
 /// @description              Move a character from the party to the field
 
 function moveCharacterFromParty( _i ) {

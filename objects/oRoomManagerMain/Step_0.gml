@@ -8,6 +8,7 @@ if (!instance_exists(oParentEnemy)) {
 		show_debug_message("everyone died! This will go to game over");
 	} else {
 		with (oFighter){
+			statXP++;
 			moveCharacterToParty(id);
 		}
 	}
