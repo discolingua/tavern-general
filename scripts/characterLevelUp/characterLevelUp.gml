@@ -52,7 +52,7 @@ function characterLevelUp( _i ){
 		_levelUpString = "Something went wrong leveling up.";
 	}
 	
-	return _levelUpString;
+	// return _levelUpString;
 	show_debug_message(_levelUpString);
 	
 }

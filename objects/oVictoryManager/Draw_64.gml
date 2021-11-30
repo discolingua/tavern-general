@@ -14,12 +14,17 @@ for (var _i = 0; _i < PARTY_SLOTS; _i++) {
 	var _y = 220 +_i * 22;
 
 	// buildCharacterInfoString returns an empty string if that array index isn't a struct
-	// so it's not needed to check isStruct here.
 
-	with (global.characterPool[_i]) {
-		var _infoString = buildCharacterInfoString( _i );
-		
+
+	if is_struct(global.characterPool[_i]) {
+		with (global.characterPool[_i]) {
+			var _infoString = buildCharacterInfoString( _i );
+			
+		}
+	} else {
+		var _infoString = "";
 	}
+	
 	draw_text(5, _y, _infoString);
 
 
