@@ -1,6 +1,3 @@
-// once per mouse click
-
-if (clickBuffer) {
-	characterLevelUp(characterIndex);
-	clickBuffer = false;
-}
+characterLevelUp(characterIndex);
+oCharacterPool.hasLevelButton[characterIndex] = false;
+instance_destroy();

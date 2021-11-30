@@ -35,18 +35,20 @@ for (var _i = 0; _i < PARTY_SLOTS; _i++) {
 		
 		// draw a heal button only if the character has damage which needs to be healed
 		
-		if (_char.statHP < _char.statMaxHP) {
+		if (_char.statHP < _char.statMaxHP && !hasHealButton[_i]) {
 			var _buttonHeal = instance_create_layer(500, _y, "Instances", oButtonHeal);
 			_buttonHeal.image_yscale *= 2;
 			_buttonHeal.characterIndex = _i;
+			hasHealButton[_i] = true;
 		}
 	
 		// draw a level up button only if the character has XP
 
-		if (_char.statXP >= _char.statLevel) {
+		if (_char.statXP >= _char.statLevel && !hasLevelButton[_i]) {
 			var _buttonLevelUp = instance_create_layer(550, _y, "Instances", oButtonLevelUp);
 			_buttonLevelUp.image_yscale *= 2;
 			_buttonLevelUp.characterIndex = _i;
+			hasLevelButton[_i] = true;
 		}
 	}
 	
