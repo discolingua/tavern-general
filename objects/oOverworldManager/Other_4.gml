@@ -1,8 +1,26 @@
-var _map, _pin;
+
+mapStruct = [];
+
+mapStruct[0] = {
+	mapX: 300,
+	mapY: 440,
+	mapName: "Tall Oak Tavern",
+	mapRoom: rmTavern
+};
+
+mapStruct[1] = {
+	mapX: 280,
+	mapY: 400,
+	mapName: "Murderous Meadows",
+	mapRoom: rmMap01
+};
+
+
 
 for (var _i = 0; _i < array_length(mapStruct); _i++ ) {
-	_map = mapStruct[_i];
-	_pin = instance_create_layer (_map.mapX, _map.mapY, "Instances", oMapPin );
+	var _map = mapStruct[_i];
+	show_debug_message("trying to load map pin for " + string(_map.mapName));
+	var _pin = instance_create_layer (_map.mapX, _map.mapY, "Instances", oMapPin );
 	_pin.mapName = _map.mapName;
-	_pin.mapRoom = _map.mapName;
+	_pin.mapRoom = _map.mapRoom;
 }
