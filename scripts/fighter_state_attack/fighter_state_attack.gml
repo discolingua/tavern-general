@@ -7,6 +7,7 @@ function fighter_state_attack(){
 		direction = image_angle;
 		
 		// loop through attack array to see what's in range this round
+
 		for (var _i = 0; _i < array_length(attackStats); _i++ ) { 
 			if (distance_to_object(_t) <= attackStats[_i].attackRange) {
 
@@ -16,10 +17,17 @@ function fighter_state_attack(){
 				_inst.direction = point_direction(x, y, _t.x, _t.y);
 				_inst.speed = 5;
 				_inst.isFriendly = true;
-				_inst.toHit = floor(random(20)) + 1 + statBonus(other.statStr);
+				
+				var _proficiencyBonus = 2 + (other.statLevel div 4);
+				var _toHitRoll = floor(random(20)+1);
+				
+				_inst.toHit = _proficiencyBonus + _toHitRoll + statBonus(other.statStr);
 				_inst.damage = random(other.attackStats[_i].attackStrength)
 					+ 1 + statBonus(other.statStr);
+
+
 				speed = 0;
+				
 			} else {
 				
 				// move towards nearest target if nothing in range

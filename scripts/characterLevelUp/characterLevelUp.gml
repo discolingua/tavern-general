@@ -35,9 +35,9 @@ function characterLevelUp( _i ){
 				break;
 			}
 			
-			// add 1d8 hit points + CON mod
+			// add 1d10 hit points + CON mod
 			
-			var _hpGain = floor(random(8)) + statBonus(statCon) + 1;
+			var _hpGain = floor(random(10)) + statBonus(statCon) + 1;
 			statMaxHP += _hpGain;
 			statHP = statMaxHP;
 			
