@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Mobs",
+    "path": "folders/Objects/Mobs.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlayer",

@@ -39,6 +39,7 @@ function characterLevelUp( _i ){
 			
 			var _hpGain = floor(random(8)) + statBonus(statCon) + 1;
 			statMaxHP += _hpGain;
+			statHP = statMaxHP;
 			
 			// raise the level
 			
@@ -54,5 +55,10 @@ function characterLevelUp( _i ){
 	
 	// return _levelUpString;
 	show_debug_message(_levelUpString);
+	
+	// this is temporary and should be handled in the button object probably
+	
+	oVictoryManager.statusLine = _levelUpString;
+	oVictoryManager.statusLineTimer = 1000;
 	
 }

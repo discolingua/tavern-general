@@ -3,7 +3,13 @@
 #macro SLOT_SIZE 48
 #macro BORDER_SIZE 16
 
+// main array to hold characters in party from map to map
+
 global.characterPool = array_create(PARTY_SLOTS, -1);
+
+// boolean array to track which mapIDs are unlocked on the overworld
+
+global.mapsUnlocked = array_create(99, false);
 
 global.playerSilver = 50;
 

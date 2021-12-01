@@ -1,1 +1,1 @@
-room_goto(rmMap01);
+room_goto(rmOverworld);

@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "UI Elements",
+    "path": "folders/Objects/UI Elements.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTavernDoor",

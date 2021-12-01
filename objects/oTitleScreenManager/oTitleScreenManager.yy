@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Room Controllers",
+    "path": "folders/Objects/Room Controllers.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTitleScreenManager",
