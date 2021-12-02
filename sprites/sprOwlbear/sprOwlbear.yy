@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "mobs",
+    "path": "folders/Sprites/mobs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprOwlbear",
