@@ -12,6 +12,15 @@ statInt = rollStat();
 statWis = rollStat();
 statChr = rollStat();
 
+
+
+while (( statBonus(statStr) + statBonus(statDex) + statBonus(statCon) ) < 0 ) {
+	show_debug_message("rerolling");
+	statStr = rollStat();
+	statDex = rollStat();
+	statCon = rollStat();
+}
+
 statLevel = 1;
 statXP = 0;
 
@@ -24,9 +33,9 @@ statMaxHP = statHP;
 
 statArmorClass = 10 + statBonus(statDex);
 
-// everybody gets at least 1HP
-if (statHP < 1) { 
-	statHP = 1; 
+// everybody gets at least 4 HP
+if (statHP < 4) { 
+	statHP = 4; 
 	statMaxHP = statHP;
 }
 
