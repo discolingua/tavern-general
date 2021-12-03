@@ -46,7 +46,7 @@ function moveCharacterFromParty( _i ) {
 
 	// create a new fighter instance
 	
-	var _inst = instance_create_layer(floor(random(150)), floor(random(300)+100),"Instances",oFighter);
+	var _inst = instance_create_layer(floor(random(50)), floor(random(80)+60),"Instances",oFighter);
 
 	// set properties of the new instance
 

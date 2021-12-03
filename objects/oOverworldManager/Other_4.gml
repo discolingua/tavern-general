@@ -15,6 +15,13 @@ mapStruct[1] = {
 	mapRoom: rmMap01
 };
 
+mapStruct[2] = {
+	mapX: 305,
+	mapY: 392,
+	mapName: "Owl Ridge",
+	mapRoom: rmOwlbear
+};
+
 
 
 for (var _i = 0; _i < array_length(mapStruct); _i++ ) {

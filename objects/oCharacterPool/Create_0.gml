@@ -11,7 +11,7 @@ global.characterPool = array_create(PARTY_SLOTS, -1);
 
 global.mapsUnlocked = array_create(99, false);
 
-global.playerSilver = 50;
+global.playerSilver = 100;
 
 global.adjStr = [ "WEAK!!", "WEAK!", "WEAK", "weak", "", "strong", "STRONG", "STRONG!", "STRONG!!" ];
 global.adjDex = [ "SLOW!!", "SLOW!", "SLOW", "slow", "", "fast", "FAST", "FAST!", "FAST!!" ];

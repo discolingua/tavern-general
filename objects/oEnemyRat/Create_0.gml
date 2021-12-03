@@ -22,7 +22,7 @@ if (initiativeOrder < 1) {
 
 attackStats = {};
 attackStats[0] = {
-	attackRange: 40,
+	attackRange: 30,
 	attackStrength: floor(random(4)) + 3
 }
 

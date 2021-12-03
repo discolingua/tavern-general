@@ -70,6 +70,7 @@
     {"id":{"name":"sprGoon","path":"sprites/sprGoon/sprGoon.yy",},"order":1,},
     {"id":{"name":"enemy_fighter_state_waiting","path":"scripts/enemy_fighter_state_waiting/enemy_fighter_state_waiting.yy",},"order":5,},
     {"id":{"name":"oCombatEntity","path":"objects/oCombatEntity/oCombatEntity.yy",},"order":2,},
+    {"id":{"name":"rmOwlbear","path":"rooms/rmOwlbear/rmOwlbear.yy",},"order":6,},
     {"id":{"name":"sprWizard","path":"sprites/sprWizard/sprWizard.yy",},"order":3,},
     {"id":{"name":"rollStat","path":"scripts/rollStat/rollStat.yy",},"order":0,},
     {"id":{"name":"state_switch_previous","path":"scripts/state_switch_previous/state_switch_previous.yy",},"order":13,},
@@ -122,6 +123,7 @@
     {"roomId":{"name":"rmVictoryScreen","path":"rooms/rmVictoryScreen/rmVictoryScreen.yy",},},
     {"roomId":{"name":"rmOverworld","path":"rooms/rmOverworld/rmOverworld.yy",},},
     {"roomId":{"name":"rmRatBasement","path":"rooms/rmRatBasement/rmRatBasement.yy",},},
+    {"roomId":{"name":"rmOwlbear","path":"rooms/rmOwlbear/rmOwlbear.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Tile Sets.yy","order":3,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},

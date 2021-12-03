@@ -14,7 +14,7 @@ if (statusLine != "") {
 // main loop to show aggregate party report
 
 for (var _i = 0; _i < PARTY_SLOTS; _i++) {
-	var _y = 220 +_i * 22;
+	var _y = 180 +_i * 22;
 
 	// buildCharacterInfoString returns an empty string 
 	// if that array index isn't a struct

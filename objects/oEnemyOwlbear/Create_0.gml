@@ -27,12 +27,12 @@ attackStats = {};
 
 attackStats[0] = {
 	attackRange: 40,
-	attackStrength: 15
+	attackStrength: floor(random(10))+6
 };
 
 attackStats[1] = {
 	attackRange: 30,
-	attackStrength: 15
+	attackStrength: floor(random(8) + random(8)) + 7
 };
 
 moveSpeed = .5;
