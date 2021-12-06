@@ -34,12 +34,13 @@ mouseOver = false;
 isMob = true;
 isFriendly = false;
 
+
 ///Setup State Machine 
 state_machine_init();
 
 //Define States
 state_create("Waiting",enemy_fighter_state_waiting);
-state_create("Attack",enemy_fighter_state_attack);
+state_create("Attack",enemy_rat_state_attack);
 state_create("Attacked",enemy_fighter_state_attacked);
 
 //Set the default state
